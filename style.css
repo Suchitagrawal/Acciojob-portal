@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.vertical-line{
+    height: 32px;
+    border-left: 1px solid #DADADA;
+}
+
+.accio-logo img{
+    gap: 10px;
+    width: 130px;
+    height: 50px;
+}
+
+.direct-link-class{
+    list-style-type: none;
+    
+}
+
+.direct-link-class a{
+  color:#4f4f4f; 
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.nav-bar{
+    margin-top: 15px;
+    
+    /* border-bottom: 2px solid #2f80ed; */
+}
+
+.direct-link-class button{
+    margin-inline: 25px;
+    padding-inline: 35px;
+    border-radius: 10px;
+    border: 4px solid #2f80ed;
+    font-weight: 400;
+    font-size: 30px;
+    color: #2f80ed;
+}
+
+.nav-2{
+    width: 100vw;
+    height: 50px;
+    background-color: #2f80ed;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
