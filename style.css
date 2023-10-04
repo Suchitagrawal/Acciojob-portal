@@ -1,6 +1,10 @@
+/* @import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&family=DM+Sans:opsz,wght@9..40,500;9..40,700&family=Roboto:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&display=swap');
 *{
     margin:0;
     padding:0;
+    /* font-family: 'DM Sans', sans-serif; */
+    font-family: 'ABeeZee', sans-serif; 
 }
 
 .vertical-line{
@@ -10,7 +14,7 @@
 
 .accio-logo img{
     gap: 10px;
-    width: 130px;
+    width: 150px;
     height: 50px;
 }
 
@@ -29,6 +33,10 @@
 
 .nav-bar{
     margin-top: 15px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    flex-wrap: wrap; 
     
     /* border-bottom: 2px solid #2f80ed; */
 }
@@ -51,4 +59,211 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+ p{
+    color: #737373;
+ }
+
+.CTA-form{
+    width: 515px;
+    height: 500px;
+    padding: 28px;
+    /* border-radius: 18px; */
+    gap: 28px;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-color:white;
+    box-shadow: 10px 10px #adbac1;
+    /* right: 90px; */
+    /* position: relative; */
+
+}
+
+.CTA-form .CTA-2 form input{
+    height: 50px;
+    width: 400px;
+    background-color: lightgray;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.CTA-form .CTA-3 button{
+    width: 470px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: #6d50ed;
+    color: white;
+}
+
+.CTA-1{
+    text-align: center;
+}
+.CTA-3{
+    text-align: center;
+}
+
+.hero-left-top-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* text-align: center; */
+    padding-top: 10px;
+    border: 1px solid;
+    box-shadow: 5px 5px #adbac1;
+}
+
+.hero-left-bottom{
+    border: 1px solid;
+    width: 50%;
+    margin-block: 100px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 5px;
+    box-shadow: 5px 5px #adbac1;
+    /* font-size: 15px; */
+    /* display: flex;
+    align-items: flex-start; */
+}
+
+.hero-section{
+    /* border: 10px solid; */
+    /* width: 100vw; */
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.courses-heading{
+   text-align: center;
+   padding-block: 70px;
+}
+
+.card-top img{
+    width: 300px;
+}
+.beginner-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: 50px;
+    gap: 10px;
+    padding: 15px;
+    height: 500px;
+    border-radius: 7px;
+    margin-bottom: 90px;
+    border: 2px solid lightgray;
+}
+
+.card-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.courses-we-offer .course-card{
+   display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   /* margin-inline:50px; */
+}
+
+.card-btn button{
+    margin: 25px;
+    padding-inline: 30px;
+    border-radius: 10px;
+    border: 2px solid #2f80ed;
+    font-weight: 400;
+    font-size: 15px;
+    color: #2f80ed;
+}
+ .details div{
+    margin: 20px;
+    border-bottom: 1px solid lightgray;
+ }
+
+ .courses-we-offer{
+    background-color: #ecf8ff;
+    /* flex-wrap: wrap; */
+ }
+.companies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ .companies-heading{
+    text-align: center;
+    padding-block: 70px;
+ }
+ .companies-logo{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     flex-wrap: wrap
+ }
+
+ .companies-logo img{
+    padding: 10px;
+    margin: 10px;
+ }
+
+ /* .companies-logo-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ } */
+ .companies-btn button{
+    margin: 25px;
+    padding-inline: 30px;
+    border-radius: 10px;
+    border: 2px solid #2f80ed;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: #2f80ed; 
+    color: white; 
+    height:50px;
+    margin: 50px;
+ }
+
+ .student-wall-heading{
+    text-align: center;
+ }
+
+ .student-1{
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    align-items: flex-start;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+ }
+
+ .position{
+    display: flex;
+    /* justify-content: space-around; */
+    /* flex-direction: row; */
+ }
+ .position img{
+    margin-inline: 30px;
+ }
+.LinkedIN{
+    height: 30px;
+    width: 30px;
+}
+
+.stu-pic{
+    height: 60px;
+    width: 60px;
+}
+
+.students{
+    /* flex-wrap: nowrap; */
+    overflow: scroll;
+}
+::-webkit-scrollbar{
+    display: none;
 }
